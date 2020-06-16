@@ -1,0 +1,13 @@
+<div class="card">
+    <div class="card-body">
+      <h5 class="card-title move">Type your Text</h5>
+      <div class="row">
+          <div >
+            <h6 class="card-subtitle mb-2 text-muted"><textarea [(ngModel)]="myString" class="form-control" rows="6" cols="50" name="input" placeholder="Start Typing"></textarea></h6>
+            <br>
+            <h6 class="card-subtitle shift text-muted">Secure your text messages</h6>
+          </div>
+          <qrcode class="qrcode" [qrdata]="myString" [width]="256" [errorCorrectionLevel]="'M'"></qrcode>
+      </div>
+    </div>
+  </div>

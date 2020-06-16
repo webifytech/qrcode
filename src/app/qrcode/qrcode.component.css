@@ -1,0 +1,39 @@
+.card{
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    margin-top: 5%;
+    width: 48rem;
+}
+.move{
+    text-align: center;
+}
+
+.shift{
+    margin-left: 10%;
+}
+
+textarea{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.qrcode{
+    margin-left: 10%;
+}
+
+@media (max-width: 575.98px) { 
+    .card{
+        width: 90%;
+    }
+    .shift{
+        margin-left: 10%;
+    }
+    
+    textarea{
+        margin-top: 10%;
+        max-width: 82%;
+    }
+    
+      
+ }
